@@ -14,6 +14,9 @@ import os
 import struct
 import zlib
 
+# Note: PNG bytes are built manually via zlib/struct and glyphs come from a
+# hand-rolled 5x7 bitmap font, avoiding any third-party imaging dependency.
+
 WIDTH = 1024
 HEIGHT = 1024
 
